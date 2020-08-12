@@ -492,15 +492,15 @@ body {
 /*Boton gris fucsia*/
 
 .button.style-10 {
-    border: 2px solid #ff3d00;
-    background: #ff3d00;
-    color: #fff;
+	border: 2px solid #ff3d00;
+	background: #ff3d00;
+	color: #fff;
 }
 
 .button.style-10:hover {
-    border: 2px solid #ff3d00;
-    background: #fff;
-    color: #ff3d00;
+	border: 2px solid #ff3d00;
+	background: #fff;
+	color: #ff3d00;
 }
 
 /*Boton gris oscuro*/
@@ -2372,7 +2372,7 @@ header .icon-entry .text b {
 	}
 
 	#content-block header {
-		background-color: #fff;
+		background-color: #004fb9;
 		position: fixed;
 		padding: 0 30px;
 		top: 0;
@@ -2398,7 +2398,7 @@ header .icon-entry .text b {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background-color: #fff;
+		background-color: #004fb9;
 		background-repeat-x: repeat;
 		background-size: contain;
 		height: 100%;
@@ -2471,7 +2471,7 @@ header .icon-entry .text b {
 		top: 50%;
 		margin: -1px 0 0 -23px;
 		content: "";
-		background: #00316B;
+		background: #fff;
 	}
 	.navigation-header .close-menu:before {
 		transform: rotate(45deg);
@@ -2519,7 +2519,7 @@ header .icon-entry .text b {
 		line-height: inherit;
 		display: block;
 		font-size: 25px;
-		color: #00316B;
+		color: #24b2ea;
 	}
 
 	body.opened-menu {
@@ -13249,10 +13249,10 @@ form label {
 }
 
 .fondo {
-	background-repeat: no-repeat!important;
-	background-position: top right!important;
-	background-size: 100% auto!important;
-	background: #004fb9;
+    background-repeat: no-repeat!important;
+    height: 80vh;
+    background-size: 100%!important;
+	background: #fff url(../img/bg/bg-login.jpeg) fixed;
 }
 
 .fondo.page-registro {
@@ -13409,17 +13409,7 @@ form div {
 
 
 
-@media(min-width: 769px) and (max-width: 1024px) {
-	.fondo {
-		background-size: 175%!important;
-	}
-}
 
-@media(min-width: 1025px) and (max-width: 1440px) {
-	.fondo {
-		background-size: 120%!important;
-	}
-}
 
 
 
@@ -13633,12 +13623,12 @@ span.help-block {
 }
 
 .info-header li.info-pts {
-    border: 1px solid #fff;
-    border-radius: 4px;
-    padding: 9px 15px;
-    background-repeat: no-repeat;
-    background-position: top left;
-    margin-right: 20px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	padding: 9px 15px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin-right: 20px;
 }
 
 .puntos-darkblue {
@@ -13667,7 +13657,7 @@ span.help-block {
 
 .info-header li.info-pts span {
 	font-size: 16px;
-	
+
 	color: #ff6702;
 	margin: 0 5px;
 }
@@ -13849,7 +13839,7 @@ p.result {
 	background: #fff;
 	border: 1px solid #e0e0e0;
 	border-radius: 4px;
-	float: left;
+	/*	float: left;*/
 	width: 260px;
 }
 
@@ -13922,6 +13912,7 @@ p.result {
 	.tab-puntos {
 		width: 100%!important;
 	}
+	.name-user {
+		color: #fff;
+	}
 }
-
-

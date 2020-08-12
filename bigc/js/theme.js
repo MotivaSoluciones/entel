@@ -181,11 +181,11 @@ jQuery(document).ready(function(){
       max: 500,
       values: [ 49, 419 ],
       slide: function( event, ui ) {
-        $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        $( "#amount" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
       }
     });
-    $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+    $( "#amount" ).val( "" + $( "#slider-range" ).slider( "values", 0 ) +
+      " - " + $( "#slider-range" ).slider( "values", 1 ) );
 	//Attr Filter Price
 	$( "#slider-range-price" ).slider({
       range: true,
@@ -193,7 +193,7 @@ jQuery(document).ready(function(){
       max: 5000,
       values: [ 924, 5000 ],
       slide: function( event, ui ) {
-        $( "#amount-price" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+        $( "#amount-price" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
       }
     });
     $( "#amount-price" ).val( "$" + $( "#slider-range-price" ).slider( "values", 0 ) +
